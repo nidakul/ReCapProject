@@ -1,0 +1,178 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nida/Projects/ReCapProject/Business/Business.csproj": {}
+  },
+  "projects": {
+    "/Users/nida/Projects/ReCapProject/Business/Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nida/Projects/ReCapProject/Business/Business.csproj",
+        "projectName": "Business",
+        "projectPath": "/Users/nida/Projects/ReCapProject/Business/Business.csproj",
+        "packagesPath": "/Users/nida/.nuget/packages/",
+        "outputPath": "/Users/nida/Projects/ReCapProject/Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nida/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/nida/Projects/ReCapProject/DataAccess/DataAccess.csproj": {
+                "projectPath": "/Users/nida/Projects/ReCapProject/DataAccess/DataAccess.csproj"
+              },
+              "/Users/nida/Projects/ReCapProject/Entities/Entities.csproj": {
+                "projectPath": "/Users/nida/Projects/ReCapProject/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nida/Projects/ReCapProject/DataAccess/DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nida/Projects/ReCapProject/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/Users/nida/Projects/ReCapProject/DataAccess/DataAccess.csproj",
+        "packagesPath": "/Users/nida/.nuget/packages/",
+        "outputPath": "/Users/nida/Projects/ReCapProject/DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nida/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/nida/Projects/ReCapProject/Entities/Entities.csproj": {
+                "projectPath": "/Users/nida/Projects/ReCapProject/Entities/Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nida/Projects/ReCapProject/Entities/Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nida/Projects/ReCapProject/Entities/Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "/Users/nida/Projects/ReCapProject/Entities/Entities.csproj",
+        "packagesPath": "/Users/nida/.nuget/packages/",
+        "outputPath": "/Users/nida/Projects/ReCapProject/Entities/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nida/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
