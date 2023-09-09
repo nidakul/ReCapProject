@@ -10,12 +10,15 @@ class Program
     {
         CarManager carManager = new CarManager(new EfCarDal());
 
-        foreach (var car in carManager.GetByCarId(1))
+        foreach (var car in carManager.GetCarsByBrandId(1))
         {
-            Console.WriteLine(car.BrandId);
+            Console.WriteLine(car.DailyPrice);
         }
 
-        
+        foreach (var car in carManager.GetCarsByColorId(1))
+        {
+            Console.WriteLine(car.Description);
+        }
     }
 }
 
