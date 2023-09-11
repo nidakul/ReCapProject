@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using Business.Abstract;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -15,14 +16,24 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
-        public void Add()
+        public void Add(Car car)
         {
-            throw new NotImplementedException();
+            _carDal.Add(car);
+        }
+
+        public void Delete(Car car)
+        {
+            _carDal.Delete(car);
         }
 
         public List<Car> GetAll()
         {
             return _carDal.GetAll();
+        }
+
+        public List<Car> GetByCarId(int carId)
+        {
+            return _carDal.GetAll(c => c.CarId == carId);
         }
 
         public List<CarDetailDto> GetCarDetails()
@@ -32,17 +43,17 @@ namespace Business.Concrete
 
         public List<Car> GetCarsByBrandId(int brandId)
         {
-            return _carDal.GetAll(p => p.BrandId == brandId);
+            return _carDal.GetAll(c => c.BrandId == brandId);
         }
 
         public List<Car> GetCarsByColorId(int colorId)
         {
-            return _carDal.GetAll(p => p.ColorId == colorId);
+            return _carDal.GetAll(c => c.ColorId == colorId);
         }
 
-        Car ICarService.GetByCarId(int carId)
+        public void Update(Car car)
         {
-            return _carDal.Get(p => p.CarId == carId);
+            _carDal.Update(car);
         }
     }
 }
