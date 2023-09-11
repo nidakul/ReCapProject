@@ -8,11 +8,16 @@ class Program
 {
     static void Main(string[] args)
     {
+        CarTest();
+    }
+
+    private static void CarTest()
+    {
         CarManager carManager = new CarManager(new EfCarDal());
 
-        foreach (var car in carManager.GetCarsByBrandId(1))
+        foreach (var car in carManager.GetCarDetails())
         {
-            Console.WriteLine(car.DailyPrice);
+            Console.WriteLine(car.CarName + "/" + car.BrandName);
         }
 
         foreach (var car in carManager.GetCarsByColorId(1))

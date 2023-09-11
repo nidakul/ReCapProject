@@ -10,3 +10,6 @@
 /Users/nida/Projects/ReCapProject/Entities/obj/Debug/net7.0/refint/Entities.dll
 /Users/nida/Projects/ReCapProject/Entities/obj/Debug/net7.0/Entities.pdb
 /Users/nida/Projects/ReCapProject/Entities/obj/Debug/net7.0/ref/Entities.dll
+/Users/nida/Projects/ReCapProject/Entities/bin/Debug/net7.0/Core.dll
+/Users/nida/Projects/ReCapProject/Entities/bin/Debug/net7.0/Core.pdb
+/Users/nida/Projects/ReCapProject/Entities/obj/Debug/net7.0/Entities.csproj.CopyComplete
