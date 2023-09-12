@@ -2,39 +2,40 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/EntityFramework/RentACarContext.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleUI/Program.cs">
     <Files>
-      <File FileName="DataAccess/Concrete/EntityFramework/RentACarContext.cs" Line="23" Column="1" />
-      <File FileName="Entities/Concrete/Car.cs" Line="18" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfCarDal.cs" Line="59" Column="6" />
-      <File FileName="Business/Concrete/CarManager.cs" Line="29" Column="48" />
-      <File FileName="ConsoleUI/Program.cs" Line="27" Column="1" />
-      <File FileName="Business/Abstract/ICarService.cs" Line="10" Column="1" />
-      <File FileName="DataAccess/Abstract/ICarDal.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Abstract/IEntityRepository.cs" Line="11" Column="11" />
-      <File FileName="Entities/Concrete/Brand.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Concrete/InMemory/InMemoryCarDal.cs" Line="1" Column="1" />
+      <File FileName="ConsoleUI/Program.cs" Line="34" Column="48" />
+      <File FileName="DataAccess/Abstract/IBrandDal.cs" Line="1" Column="1" />
+      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReCapProject" expanded="True">
-            <Node name="Business">
+            <Node name="Business" expanded="True">
               <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
             </Node>
-            <Node name="DataAccess">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Concrete">
-                <Node name="EntityFramework">
-                  <Node name="RentACarContext.cs" selected="True" />
-                </Node>
+            <Node name="ConsoleUI" expanded="True" />
+            <Node name="Core" expanded="True">
+              <Node name="DataAccess" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
+              </Node>
+              <Node name="Entities" expanded="True" />
+            </Node>
+            <Node name="DataAccess" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True">
+                <Node name="EntityFramework" expanded="True" />
+                <Node name="InMemory" expanded="True" />
               </Node>
             </Node>
-            <Node name="Entities">
-              <Node name="Abstract" expanded="True" />
+            <Node name="Entities" expanded="True">
               <Node name="Concrete" expanded="True" />
+              <Node name="DTOs" expanded="True" />
             </Node>
           </Node>
         </State>

@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -12,17 +13,72 @@ class Program
         //CarTest();
         //BrandTest();
         //ColorTest();
-        ListCar();
+        //ListCar(); 
+        //CustomerTest();
+        //UserTest();
+        RentalTest();
+    }
+
+    private static void RentalTest()
+    {
+        RentalManager rentalManager = new RentalManager(new EfRentalDal());
+
+        Rental rental = new Rental { CarId = 1, CustomerId = 1, RentDate = DateTime.Now}; 
+         var result = rentalManager.Add(rental);
+        Console.WriteLine(result.Message);
+    }
+
+    private static void CustomerTest()
+    {
+        CustomerManager customerManager = new CustomerManager(new EfCustomerDal());
+
+        Customer customer = new Customer { UserId = 1, CompanyName = "deneme" };
+
+        var result = customerManager.Add(customer); 
+        Console.WriteLine(result.Message);
+    }
+
+    private static void UserTest()
+    {
+        UserManager userManager = new UserManager(new EfUserDal());
+
+        User user = new User {UserId = 1, Email = "mvlskmskl", FirstName = "Nida", LastName = "KUl", Password = "mdkaml"};
+
+        var result = userManager.Add(user);
+        Console.WriteLine(result.Message);
     }
 
     private static void ListCar()
     {
         CarManager carManager = new CarManager(new EfCarDal());
 
-        foreach (var car in carManager.GetCarDetails())
+        Car car1 = new Car {CarId = 2, BrandId = 1, CarName = "Yaris", ColorId = 2, DailyPrice= 3432, Description = "New Car" ,ModelYear = 2021};
+        var result1 =  carManager.Add(car1);
+
+        if(result1.Success)
         {
-            Console.WriteLine("Car Name : " + car.CarName + "\n" + "Brand Name : " + car.BrandName + "\n" + "Color Name : " + car.ColorName
-                + "\n" + "Daily Price : " + car.DailyPrice);
+            Console.WriteLine(result1.Message);
+        }
+        else
+        {
+            Console.WriteLine(result1.Message);
+        }
+
+
+        var result = carManager.GetAll();
+        if (result.Success == true)
+        {
+            foreach (var car in result.Data)
+            {
+                //Console.WriteLine("Car Name : " + car.CarName + "\n" + "Brand Name : " + car.BrandName + "\n" + "Color Name : " + car.ColorName
+                //+ "\n" + "Daily Price : " + car.DailyPrice); 
+                Console.WriteLine(car.CarName);
+            }
+            
+        }
+        else
+        {
+            Console.WriteLine("Hata");
         }
     }
 
@@ -31,7 +87,7 @@ class Program
         BrandManager brandManager = new BrandManager(new EfBrandDal());
 
 
-        Brand brand =  new Brand {BrandId = 2, '
+        Brand brand =  new Brand {BrandId = 2, 
             BrandName = "Tesla" };
 
         brandManager.Add(brand); 
@@ -42,24 +98,24 @@ class Program
          }*/
     }
 
-    private static void ColorTest() 
-    {
+    private static void ColorTest()
+    {/*
         ColorManager colorManager = new ColorManager(new EfColorDal());
 
         foreach (var color in colorManager.GetByColorId(1))
         {
             Console.WriteLine(color.ColorName);
-        }
+        }*/
     }
 
     private static void CarTest()
-    {
+    {/*
         CarManager carManager = new CarManager(new EfCarDal());
 
         foreach (var car in carManager.GetByCarId(1))
         {
             Console.WriteLine(car.CarName);
-        }
+        }*/
 
     }
 }
