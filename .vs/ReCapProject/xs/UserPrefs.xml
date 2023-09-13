@@ -1,23 +1,26 @@
-﻿<Properties StartupConfiguration="{A8309008-CF91-485B-94BE-B29338B8DD60}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupConfiguration="{7944AEA1-B42B-4D70-8B74-DC3A7298C904}|https">
   <MonoDevelop.Ide.ItemProperties.ConsoleUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.ksl FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ConsoleUI/Program.cs">
     <Files>
-      <File FileName="ConsoleUI/Program.cs" Line="34" Column="48" />
-      <File FileName="DataAccess/Abstract/IBrandDal.cs" Line="1" Column="1" />
-      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="1" Column="1" />
+      <File FileName="ConsoleUI/Program.cs" Line="16" Column="22" />
+      <File FileName="Business/Concrete/RentalManager.cs" Line="17" Column="10" />
+      <File FileName="Entities/Concrete/Rental.cs" Line="12" Column="25" />
+      <File FileName="DataAccess/Concrete/EfRentalDal.cs" Line="10" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ReCapProject" expanded="True">
+          <Node name="ReCapProject">
             <Node name="Business" expanded="True">
               <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
+              <Node name="Constants" expanded="True" />
             </Node>
             <Node name="ConsoleUI" expanded="True" />
             <Node name="Core" expanded="True">
@@ -25,6 +28,9 @@
                 <Node name="EntityFramework" expanded="True" />
               </Node>
               <Node name="Entities" expanded="True" />
+              <Node name="Utilities" expanded="True">
+                <Node name="Results" expanded="True" />
+              </Node>
             </Node>
             <Node name="DataAccess" expanded="True">
               <Node name="Abstract" expanded="True" />
@@ -42,5 +48,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
