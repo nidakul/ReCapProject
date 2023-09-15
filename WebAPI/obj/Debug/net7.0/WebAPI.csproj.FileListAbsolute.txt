@@ -256,3 +256,8 @@
 /Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/Core.pdb
 /Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/DataAccess.pdb
 /Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/Entities.pdb
+/Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/Autofac.dll
+/Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/Autofac.Extras.DynamicProxy.dll
+/Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/Castle.Core.dll
+/Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/Autofac.Extensions.DependencyInjection.dll
+/Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/FluentValidation.dll

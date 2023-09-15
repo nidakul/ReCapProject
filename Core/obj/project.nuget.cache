@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Xe33epTZcrKgQ6vnRDX5smrMj8CtmoROqC1djq+kmDtnMN1F4tJ3vq6sHqAx+Mscx2gsPxEtQiuXqVdmM3QZRQ==",
+  "dgSpecHash": "u9lU0FNDuwGHH0hSZKrjrY+YI1giSTcgOD4snY/oJJWYyWZKkoIJ6Kj8M1iWp/Fv7TUKheiJJHnGLZI1ve3qKQ==",
   "success": true,
   "projectFilePath": "/Users/nida/Projects/ReCapProject/Core/Core.csproj",
   "expectedPackageFiles": [
+    "/Users/nida/.nuget/packages/autofac/7.1.0/autofac.7.1.0.nupkg.sha512",
+    "/Users/nida/.nuget/packages/autofac.extensions.dependencyinjection/8.0.0/autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/nida/.nuget/packages/autofac.extras.dynamicproxy/7.1.0/autofac.extras.dynamicproxy.7.1.0.nupkg.sha512",
+    "/Users/nida/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/nida/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512",
     "/Users/nida/.nuget/packages/microsoft.entityframeworkcore/7.0.10/microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "/Users/nida/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.10/microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
     "/Users/nida/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.10/microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
@@ -14,7 +19,9 @@
     "/Users/nida/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/Users/nida/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/nida/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "/Users/nida/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    "/Users/nida/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/nida/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "/Users/nida/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
