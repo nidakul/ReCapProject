@@ -1,4 +1,6 @@
 ﻿using System;
+using Entities.Concrete;
+
 namespace Business.Constants
 {
 	public static class Messages
@@ -39,7 +41,15 @@ namespace Business.Constants
         public static string RentalUpdated = "Updating Rental!";
         public static string RentalNotAdded = "Adding Not Rental!";
         public static string RentalListed = "Listed Rental!";
+
+        public static string CarImageAdded = "Adding CarImage!";
+        public static string CarImageDeleted = "Deleting CarImage!";
+        public static string CarImageUpdated = "Updating CarImage!";
+        public static string CarImageNotAdded = "Adding Not CarImage!";
+        public static string CarImageListed = "Listed CarImage!"; 
+        public static string CarImageCountError = "Car Must Have 5 or Less Images!";
     }
+
 
 }
 

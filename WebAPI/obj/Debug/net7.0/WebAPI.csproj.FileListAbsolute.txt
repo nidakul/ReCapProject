@@ -261,3 +261,4 @@
 /Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/Castle.Core.dll
 /Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/Autofac.Extensions.DependencyInjection.dll
 /Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/FluentValidation.dll
+/Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/WebAPI.staticwebassets.runtime.json

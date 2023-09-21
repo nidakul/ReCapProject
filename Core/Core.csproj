@@ -18,6 +18,9 @@
     <None Remove="Aspects\" />
     <None Remove="Aspects\Autofac\" />
     <None Remove="Aspects\Autofac\Validation\" />
+    <None Remove="Utilities\Business\" />
+    <None Remove="Helpers\" />
+    <None Remove="Helpers\FileHelper\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
@@ -31,6 +34,9 @@
     <Folder Include="Aspects\" />
     <Folder Include="Aspects\Autofac\" />
     <Folder Include="Aspects\Autofac\Validation\" />
+    <Folder Include="Utilities\Business\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Helpers\FileHelper\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />

@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{7944AEA1-B42B-4D70-8B74-DC3A7298C904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ksl", "ksl\ksl.csproj", "{7603A6F3-CDCF-4675-9387-2DF4C9E6B174}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,10 +45,6 @@ Global
 		{7944AEA1-B42B-4D70-8B74-DC3A7298C904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7944AEA1-B42B-4D70-8B74-DC3A7298C904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7944AEA1-B42B-4D70-8B74-DC3A7298C904}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7603A6F3-CDCF-4675-9387-2DF4C9E6B174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7603A6F3-CDCF-4675-9387-2DF4C9E6B174}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7603A6F3-CDCF-4675-9387-2DF4C9E6B174}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7603A6F3-CDCF-4675-9387-2DF4C9E6B174}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
