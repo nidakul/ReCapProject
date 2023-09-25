@@ -6,7 +6,7 @@ namespace Business.Constants
 	public static class Messages
 	{
 		public static string CarAdded = "Adding Car!";
-        public static string CarDeleted = "Deleting Car!";
+        public static string CarDeleted = "Deleting Car!";  
         public static string CarUpdated = "Updating Car!";
         public static string CarNotAdded = "Adding Not Car!";
         public static string CarNameInvalid = "Invalid Car Name!";
@@ -29,6 +29,9 @@ namespace Business.Constants
         public static string UserUpdated = "Updating User!";
         public static string UserNotAdded = "Adding Not User!";
         public static string UserListed = "Listed Users!";
+        public static string UserNotFound = "Not Found User!";
+        public static string UserRegistered = "Register User!";
+        public static string UserAlreadyExists = "Exists User!";
 
         public static string CustomerAdded = "Adding Customer!";
         public static string CustomerDeleted = "Deleting Customer!";
@@ -48,6 +51,14 @@ namespace Business.Constants
         public static string CarImageNotAdded = "Adding Not CarImage!";
         public static string CarImageListed = "Listed CarImage!"; 
         public static string CarImageCountError = "Car Must Have 5 or Less Images!";
+
+        public static string AuthorizationDenied = "Don't Have Authority!";
+        public static string PasswordError = "Wrong Password!";
+        public static string SuccessfulLogin = "Success Login!";
+        public static string AccessTokenCreated = "Create Access Token!";
+        
+
+
     }
 
 

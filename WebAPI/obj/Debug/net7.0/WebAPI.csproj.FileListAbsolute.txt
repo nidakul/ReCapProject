@@ -262,3 +262,5 @@
 /Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/Autofac.Extensions.DependencyInjection.dll
 /Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/FluentValidation.dll
 /Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/WebAPI.staticwebassets.runtime.json
+/Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/nida/Projects/ReCapProject/WebAPI/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using Core.Entities.Concrete;
 using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
@@ -38,15 +39,6 @@ class Program
         Console.WriteLine(result.Message);
     }
 
-    private static void UserTest()
-    {
-        UserManager userManager = new UserManager(new EfUserDal());
-
-        User user = new User {UserId = 1, Email = "mvlskmskl", FirstName = "Nida", LastName = "KUl", Password = "mdkaml"};
-
-        var result = userManager.Add(user);
-        Console.WriteLine(result.Message);
-    }
 
     private static void ListCar()
     {

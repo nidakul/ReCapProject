@@ -83,3 +83,4 @@
 /Users/nida/Projects/ReCapProject/ConsoleUI/bin/Debug/net7.0/Microsoft.AspNetCore.WebUtilities.dll
 /Users/nida/Projects/ReCapProject/ConsoleUI/bin/Debug/net7.0/Microsoft.Extensions.ObjectPool.dll
 /Users/nida/Projects/ReCapProject/ConsoleUI/bin/Debug/net7.0/Microsoft.Net.Http.Headers.dll
+/Users/nida/Projects/ReCapProject/ConsoleUI/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll
