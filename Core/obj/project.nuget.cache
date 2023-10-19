@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WcGi7gHT7X4CZzalck7DaGavb0135Wqm2cYQ2TNCJTJCiYEhpG0tm7xOcNYL0yvmIZ+t7hDSJI4v8ZRMjyt0cQ==",
+  "dgSpecHash": "gxrdwK0v0VD1V6ztEhytUr5wrL4/JS6tyggCJHbs5hhL1zA0STZzMmFP0NVWUb0GO8gUSKRgIkZgv8sDlefF1w==",
   "success": true,
   "projectFilePath": "/Users/nida/Projects/ReCapProject/Core/Core.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "/Users/nida/.nuget/packages/microsoft.identitymodel.logging/7.0.0/microsoft.identitymodel.logging.7.0.0.nupkg.sha512",
     "/Users/nida/.nuget/packages/microsoft.identitymodel.tokens/7.0.0/microsoft.identitymodel.tokens.7.0.0.nupkg.sha512",
     "/Users/nida/.nuget/packages/microsoft.net.http.headers/2.2.0/microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "/Users/nida/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/nida/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/nida/.nuget/packages/system.diagnostics.diagnosticsource/4.7.1/system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "/Users/nida/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",

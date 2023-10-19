@@ -7,8 +7,8 @@ using Core.Utilities.Security.Encryption;
 using Core.Utilities.Security.Jwt;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using Core.Extensions;
 using Core.Extentions;
-
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -77,6 +77,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.ConfigureCustomExceptionMiddleware();
 
 app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
 

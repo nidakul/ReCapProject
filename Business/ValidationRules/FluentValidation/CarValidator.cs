@@ -9,8 +9,8 @@ namespace Business.ValidationRules.FluentValidation
 		public CarValidator()
 		{
 			RuleFor(c => c.CarName).NotEmpty();
-			RuleFor(c => c.CarName).MinimumLength(2);
-			RuleFor(c => c.DailyPrice).GreaterThanOrEqualTo(10).When(c => c.CarId == 1);
+			//RuleFor(c => c.CarName).MinimumLength(2);
+			//RuleFor(c => c.DailyPrice).GreaterThanOrEqualTo(10).When(c => c.CarId == 1);
 			RuleFor(c => c.CarName).Must(StartWithA).WithMessage("Car name must start with A");
         }
 
